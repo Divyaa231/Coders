@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEGO Interactive Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <nav>
+        <div class="logo">
+            <img src="logo.jpg" height="50" class="center-image">
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="animation.html">Animation</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="profile.html">Profile</a></li>
+        </ul>
+    </nav>
+
+    <!-- MAIN DASHBOARD CONTAINER -->
+    <div class="dashboard">
+
+        <!-- MAIN CONTENT -->
+        <main class="main-content">
+            <h2>Build Your LEGO World</h2>
+            <div class="main-box">
+                <img src="lego.jpg" alt="LEGO Build" class="main-image">
+            </div>
+        </main>
+
+        <!-- SIGN-UP FORM (Positioned at Top-Right) -->
+        <div class="signup-container">
+            <h2>Sign Up</h2>
+            <p>Create your account</p>
+            <form action="#" method="POST">
+                <div class="input-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" placeholder="Enter your name" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter your password" required>
+                </div>
+                <button type="submit" class="btn">Sign Up</button>
+                <p class="login-link">Already have an account? <a href="#">Login</a></p>
+            </form>
+        </div>
+
+    </div>
+
+    <!-- GAME INFO SECTION -->
+    <div class="game-info-container">
+        <h2>Explore LEGO Games</h2>
+        <div class="game-grid">
+            <div class="game-box">
+                <img src="game1.jpg" alt="Game 1">
+                <p>🚗 LEGO Racing: Compete in exciting races!</p>
+            </div>
+            <div class="game-box">
+                <img src="game2.jpg" alt="Game 2">
+                <p>🏗 LEGO City Builder: Create your own world!</p>
+            </div>
+            <div class="game-box">
+                <img src="game3.jpg" alt="Game 3">
+                <p>🌍 LEGO Adventure: Explore and discover!</p>
+            </div>
+            <div class="game-box">
+                <img src="game4.jpg" alt="Game 4">
+                <p>🚀 LEGO Space Mission: Travel beyond Earth!</p>
+            </div>
+            <div class="game-box">
+                <img src="game5.jpg" alt="Game 5">
+                <p>🦸 LEGO Superheroes: Save the city!</p>
+            </div>
+            <div class="game-box">
+                <img src="game6.jpg" alt="Game 6">
+                <p>⚔️ LEGO Medieval Battles: Fight for the kingdom!</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
